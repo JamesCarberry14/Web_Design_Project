@@ -1,0 +1,165 @@
+
+
+nav {
+    background-color: grey;
+    padding: 10px;
+}
+
+nav ul {
+    text-align:center;
+    font-size: 1.2em;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px; 
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+ background-color: black;   
+}
+
+header {
+    background-image: url(../images/TheWorld.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: red;
+    border: 1px solid blue;
+}
+
+footer {
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+footer p, h2, h3{
+    
+    color:white;
+}
+
+h1 {
+    float: center;
+}
+
+
+h2, h3 {
+    color: white;
+}
+
+.TopNewsArticles p {
+    text-align: center;
+    color: white;
+    
+}
+
+.TopNewsArticles h2,h3 {
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+body {
+    font-family: Verdana;
+    background-color: black;  
+}
+
+body p {
+    color: white;
+}
+
+main {
+    text-align: center;   
+
+}
+
+#content {
+        float: right;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+}
+
+aside {
+    width: 18%;
+    float:left;
+    border: 1px solid yellow;
+    padding: 1px;
+}
+
+aside ul li {
+    list-style-type: none; 
+}
+
+aside ul li a {
+ color: blue;
+ text-decoration: none;}
+
+aside p {
+        color: white;
+    padding: 15px;
+}
+
+.col_detail {
+    column-count: 2;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+    
+}
+
+.ArticleBody {
+    margin: 15px;
+}
+
+.required {
+    font-weight: bold;
+    color: red;
+}
+
+label {
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+
+input[type="radio"] {width: 10px;}
+
+#button {
+    margin-left: 138px;
+}
+
+#button, #reset {
+    margin-top: 0.5em;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid black;
+}
+
+form {
+    color: white;
+}
